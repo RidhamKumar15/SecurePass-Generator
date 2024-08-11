@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurePass Generator</title>
+    <link rel="shortcut icon" href="securepass.svg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .header:hover {
+            background-color: #0056b3;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        h1, h2, h3 {
+            color: #007bff;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #d63384;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://github.com/RidhamKumar15/SecurePass-Generator">SecurePass Generator</a>
+        </div>
+        <h1>SecurePass Generator</h1>
+        <p><img src="link.png" alt="link" width="25" height="25"> <a href="https://github.com/RidhamKumar15/SecurePass-Generator">Link</a></p>
+
+        <p>This Java application generates random, secure passwords and evaluates their strength. It helps you create strong passwords and assess their robustness based on various criteria.</p>
+
+        <h2>Features</h2>
+        <h3>1. Password Generation</h3>
+        <ul>
+            <li>Answer simple "Yes" or "No" questions about including uppercase letters, lowercase letters, numbers, and symbols.</li>
+            <li>Specify the desired length of the password.</li>
+            <li>A custom password alphabet is generated based on your preferences.</li>
+            <li>SecurePass randomly selects characters from this alphabet to create a password that meets your specifications.</li>
+            <li>The generated password is displayed on the console.</li>
+        </ul>
+
+        <h3>2. Password Strength Check</h3>
+        <ul>
+            <li>The password uses uppercase letters.</li>
+            <li>The password uses lowercase letters.</li>
+            <li>The password uses numbers.</li>
+            <li>The password uses symbols.</li>
+            <li>The length of the password is 8 or more (8 is often the minimum required length for a decent password).</li>
+            <li>The length of the password is 16 or more (16 is considered to be the minimum length for a good password).</li>
+        </ul>
+
+        <h3>3. Useful Information</h3>
+        <ul>
+            <li>Offers essential tips on password security, such as avoiding repetition, keyboard patterns, dictionary words, and common sequences.</li>
+            <li>Helps users understand best practices for creating secure passwords and safeguarding digital accounts.</li>
+        </ul>
+
+        <h2>Usage Instructions:</h2>
+        <ol>
+            <li><strong>Ensure Java is Installed:</strong><br>
+                Verify that Java is installed on your system. You can check by running <code>java -version</code> and <code>javac -version</code> in your terminal or command prompt. If Java is not installed, download and install the Java Development Kit (JDK) from the <a href="https://www.oracle.com/java/technologies/downloads/?er=221886" target="_blank">official Java website</a>.</li>
+            <li><strong>Clone or Download the Repository:</strong><br>
+                Clone the repository using:
+                <pre><code>git clone &lt;repository-url&gt;</code></pre>
+                Or download the ZIP file and extract it.</li>
+            <li><strong>Navigate to the Source Directory:</strong><br>
+                Open a terminal or command prompt and change to the directory containing the source files:
+                <pre><code>cd path/to/SecurePass-Generator/src</code></pre></li>
+            <li><strong>Compile the Source Files:</strong><br>
+                Compile the Java source files using:
+                <pre><code>javac *.java</code></pre></li>
+            <li><strong>Run the Application:</strong><br>
+                Execute the main class:
+                <pre><code>java Main</code></pre></li>
+            <li><strong>Follow the Prompts:</strong><br>
+                The program will display a menu with options to generate a password, check its strength, and view security tips.</li>
+        </ol>
+
+        <h2>Notes</h2>
+        <p>Ensure to provide accurate inputs for password generation and strength checking. The tool helps you create strong passwords and improve your password security practices.</p>
+    </div>
+</body>
+</html>
