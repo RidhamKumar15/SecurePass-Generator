@@ -47,25 +47,24 @@ To run SecurePass Generator on your machine:
 
 2. **Clone or Download the Repository:**
    - Clone the repository using:
-     git clone <repository-url>
+           git clone <repository-url>
      
    - Or download the ZIP file and extract it.
 
 3. **Navigate to the Source Directory:**
    - Open a terminal or command prompt and change to the directory containing the source files:
 
-     cd path\to\Password-Generator-master\Password Generator\src
+           cd path\to\Password-Generator-master\Password Generator\src
 
 4. **Compile the Source Files:**
    - Compile the Java source files using:
 
-     javac *.java
-
+        javac *.java
 
 5. **Run the Application:**
    - Execute the main class:
      
-     java Main
+        java Main
 
 
 6. **Follow the Prompts:**
